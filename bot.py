@@ -4,10 +4,6 @@ from discord.ext import tasks
 
 TOKEN = 'TOKEN_KEY' # 
 
-hand_ans = []
-list_hand = []
-count = 0
-result1 = []
 client = discord.Client(intents=discord.Intents.all())
 
 f1 = open('ricky_like.json', 'r',encoding="utf-8")
